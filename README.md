@@ -24,4 +24,4 @@ Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidad
 - Victor Augusto Lima Barbosa (202202209236) - [@frtvi](https://www.github.com/frtvi)
 - Lucas Camargo Vicentini (202302380433) - [@LuccaooX](https://www.github.com/LuccaooX)
 - Gabriel Saldanha de Alencar (202202423131) - [@dluMenSE](https://github.com/dluMenSE)
-- André Ribeiro Xavier (202303822103)
+- André Ribeiro Xavier (202303822103) - [@d0kyo](https://github.com/d0kyo)

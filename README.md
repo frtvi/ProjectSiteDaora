@@ -21,7 +21,7 @@ Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidad
 ## Autores
 ### Nome da equipe: Froggers
 
-- Victor Augusto Lima Barbosa (202202209236)
-- Lucas Camargo Vicentini (202302380433)
+- Victor Augusto Lima Barbosa (202202209236) - [@frtvi](https://www.github.com/frtvi)
+- Lucas Camargo Vicentini (202302380433) - [@LuccaooX](https://www.github.com/LuccaooX)
 - Gabriel Saldanha de Alencar (202202423131)
 - André Ribeiro Xavier (202303822103)

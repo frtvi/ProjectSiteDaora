@@ -26,4 +26,7 @@ Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidad
 - Gabriel Saldanha de Alencar (202202423131) - [@dluMenSE](https://github.com/dluMenSE)
 - André Ribeiro Xavier (202303822103) - [@d0kyo](https://github.com/d0kyo)
 
+# Nota Legal
+Este site foi criado por fãs para um trabalho da faculdade e não está afiliado, endossado, patrocinado ou aprovado de forma alguma pela Riot Games, desenvolvedora do League of Legends, ou por qualquer outra entidade relacionada.
+
 https://frtvi.github.io/ProjectSmurfArena/

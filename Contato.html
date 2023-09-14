@@ -2,6 +2,62 @@
 
 <html style="font-size: 16px;" lang="pt" class="u-responsive-xl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <style>
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: #f2f2f2;
+          margin: 0;
+          padding: 0;
+      }
+  
+      h1 {
+          text-align: center;
+      }
+  
+      form {
+          max-width: 400px;
+          margin: 0 auto;
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+      }
+  
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      textarea {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 3px;
+      }
+  
+      input[type="submit"] {
+          background-color: #007bff;
+          color: #fff;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+      }
+  
+      input[type="submit"]:hover {
+          background-color: #0056b3;
+      }
+  
+      .error {
+          color: red;
+      }
+  </style>
     
     <meta name="keywords" content="Fale conosco">
     <meta name="description" content="">
@@ -118,43 +174,54 @@
       </div></header>
     <section class="u-align-center u-clearfix u-section-1" id="sec-f28b">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">Fale conosco</h2>
-        <div class="u-form u-form-1">
-          <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="email" name="form" style="padding: 10px;">
-            <input type="hidden" id="siteId" name="siteId" value="5753405">
-            <input type="hidden" id="pageId" name="pageId" value="5753203">
-            <div class="u-form-email u-form-group">
-              <label for="email-6d38" class="u-label">Email</label>
-              <input type="email" placeholder="Insira um endereço de email válido" id="email-6d38" name="email" class="u-input u-input-rectangle" required="">
-            </div>
-            <div class="u-form-group u-form-name">
-              <label for="name-6d38" class="u-label">Nome</label>
-              <input type="text" placeholder="Insira seu Nome" id="name-6d38" name="name" class="u-input u-input-rectangle" required="">
-            </div>
-            <div class="u-form-group u-form-group-3">
-              <label for="text-4eb0" class="u-label">Sobrenome</label>
-              <input type="text" placeholder="Insira seu sobrenome" id="text-4eb0" name="text" class="u-input u-input-rectangle">
-            </div>
-            <div class="u-form-group u-form-group-4">
-              <label for="text-9c15" class="u-label">Telefone</label>
-              <input type="text" placeholder="Insira seu telefone" id="text-9c15" name="text-1" class="u-input u-input-rectangle">
-            </div>
-            <div class="u-form-group u-form-group-5">
-              <label for="text-e3df" class="u-label">Mensagem</label>
-              <input type="text" placeholder="Escreva sua mensagem" id="text-e3df" name="text-2" class="u-input u-input-rectangle">
-            </div>
-            <div class="u-align-left u-form-group u-form-submit">
-              <a href="https://webhook.site/0a65e301-c125-43b8-9bbb-7737b6ef8e30" class="u-btn u-btn-submit u-button-style">Enviar</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
-            </div>
-            <div class="u-form-send-message u-form-send-success"> Obrigado! A sua mensagem foi enviada. </div>
-            <div class="u-form-send-error u-form-send-message"> Não foi possível enviar a sua mensagem. Por favor, corrija os erros e tente novamente. </div>
-            <input type="hidden" value="" name="recaptchaResponse">
-            <input type="hidden" name="formServices" value="4d01a803-b8fe-a781-a7bf-f7e46fd2183c">
-            <input type="hidden" name="siteKey" value="6Lc2HDEiAAAAALpe1yqNarK-BmlyYl_MNPZx7_AB">
-          </form>
-        </div>
-      </div>
+        <h1>Contato</h1>
+        <form id="meu-formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+    
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required><br>
+    
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br>
+    
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    
+        <script>
+            document.getElementById("meu-formulario").addEventListener("submit", function (event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+    
+                const formData = new FormData(this);
+    
+                fetch("https://formspree.io/f/xrgwlpyw", {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        Accept: "application/json",
+                    },
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        if (data.success) {
+                            // Redirecionar o usuário para a página de sucesso
+                            alert("Enviado!");
+                        } else {
+                            // Lidar com erros de envio
+                            alert("Enviado!");
+                        }
+                    })
+                    .catch((error) => {
+                        console.error("Erro ao enviar o formulário:", error);
+                    });
+            });
+        </script>
     </section>
     
     

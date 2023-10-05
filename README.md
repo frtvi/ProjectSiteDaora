@@ -3,6 +3,8 @@
 Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!
 https://frtvi.github.io/ProjectSmurfArena/
 
+Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e uma ferramenta chamada formspree para recebimento de formulários no e-mail
+
 ## Sobre Nós
 
 Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidade de explorar o League of Legends de maneira única. Oferecemos uma ampla variedade de contas smurf que permitem aos jogadores experientes mergulharem em novos desafios ou jogar com amigos iniciantes, mantendo uma experiência de jogo equilibrada para todos.

@@ -3,7 +3,7 @@
 Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!
 https://frtvi.github.io/ProjectSmurfArena/
 
-Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e uma ferramenta chamada formspree para recebimento de formulários no e-mail
+Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e o formspree para recebimento de formulários no e-mail
 
 ## Sobre Nós
 

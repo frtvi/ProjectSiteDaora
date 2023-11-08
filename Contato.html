@@ -202,34 +202,32 @@
             <input type="submit" value="Enviar">
         </form>
     
-        <script>
-            document.getElementById("meu-formulario").addEventListener("submit", function (event) {
-                event.preventDefault(); // Impede o envio padrão do formulário
-    
-                const formData = new FormData(this);
-    
-                fetch("https://formspree.io/f/xrgwlpyw", {
-                    method: "POST",
-                    body: formData,
-                    headers: {
-                        Accept: "application/json",
-                    },
-                })
-                    .then((response) => response.json())
-                    .then((data) => {
-                        if (data.success) {
-                            // Redirecionar o usuário para a página de sucesso
-                            alert("Enviado!");
-                        } else {
-                            // Lidar com erros de envio
-                            alert("Enviado!");
-                        }
-                    })
-                    .catch((error) => {
-                        console.error("Erro ao enviar o formulário:", error);
-                    });
-            });
-        </script>
+       <script>
+  document.getElementById('meu-formulario').addEventListener('submit', async function (event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+
+    const formData = {
+      // Coletar os dados do formulário e montar o objeto JSON
+    };
+
+    try {
+      const response = await fetch('/enviar-formulario', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+      });
+
+      const data = await response.json();
+      alert(data.message);
+    } catch (error) {
+      console.error('Erro ao enviar o formulário:', error);
+      alert('Erro ao enviar o formulário');
+    }
+  });
+</script>
     </section>
     
     

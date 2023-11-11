@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Smurf Arena</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/home.css">	
+		<link rel="stylesheet" href="css/geral.css">
+		<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+		<link rel="stylesheet" href="css/plugins.css">
+	</head>
+	<body>
+
+		<nav class="menu-responsivo">
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="portfolio.html">Reviews</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>		
+
+		<div class="layout">
+			<header>
+				<div class="container">
+
+					<div class="links">
+						<nav>
+							<ul>
+								<li><a href="index.html">Início</a></li>
+								<li><a href="sobre.html">Sobre</a></li>
+								<li><a href="portfolio.html">Reviews</a></li>
+								<li><a href="contato.html">Contato</a></li>
+							</ul>
+						</nav>
+
+						<a class="toggle" href="javascript:;">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+
+					</div>
+
+					<h1><strong>Smurf</strong>Arena</h1>
+
+					<p>Domine o jogo agora!</p>
+
+				</div>
+				
+			</header>
+			
+			<main>
+				<section class="sobre">
+					<div class="container">
+						<div class="itens">			
+							
+							<div class="foto wow flipInX" data-wow-duration="1s" data-wow-delay="5s">
+								<img src="images/sa.png" alt="Foto TAG">
+							</div>
+
+							<div class="icone-lapis wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
+								<i class="fa fa-pencil"></i>
+							</div>
+
+							<div class="icone-codigo wow flipInX" data-wow-duration="1s" data-wow-delay="2s">
+								<i class="fa fa-code"></i>
+							</div>
+
+							<div class="icone-coracao wow flipInX" data-wow-duration="1s" data-wow-delay="3s">
+								<i class="fa fa-heart"></i>
+							</div>
+
+							<div class="icone-compartilhar wow flipInX" data-wow-duration="1s" data-wow-delay="4s">
+								<i class="fa fa-share-alt"></i>
+							</div>
+						</div>
+
+						<div class="textos">
+							<p>Compre contas smurf de League of Legends na SmurfArena e jogue como um verdadeiro imperador de Shurima! Não perca tempo.<br><br><strong>A SmurfArena é uma empresa especializada na venda de contas smurf de League of Legends, estamos comprometidos em proporcionar aos nossos clientes uma experiência única e segura.<br>Com uma equipe dedicada e experiente, oferecemos contas smurf de alta qualidade. Nosso objetivo é garantir que os jogadores tenham acesso a contas alternativas para aprimorar suas habilidades e diversificar sua experiência no jogo.<br>Conte conosco para adquirir sua conta smurf com confiança e praticidade!</p>
+
+						</div>
+					</div>
+				</section>
+			</main>
+			
+			<footer>
+				<div class="logo-rodape">
+					<a href="index.html">
+						<img src="images/sa.png" alt="Logo TAG Rodapé">
+					</a>
+					<p>Todos os Direitos Reservados</p>
+				</div>
+			</footer>
+		</div>
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/wow/dist/wow.min.js"></script>
+		<script>
+			$(function(){				
+				$('.toggle').click(function(){
+					$('.layout').toggleClass('ativo');
+					$('.menu-responsivo').toggleClass('ativo');
+					$(this).toggleClass('ativo');
+				});
+				new WOW().init();
+			});
+
+			var host = "SMURF ARENA"
+			if (window.location.host == host && window.location.protocol != "https:") {
+			  window.location.protocol = "https:"
+			}
+		</script>
+	</body>
+</html>

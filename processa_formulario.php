@@ -1,9 +1,12 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // Verifica se o formulário foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Conecta ao banco de dados
-    $servername = "127.0.0.1:3306";
+    $servername = "srv1079.hstgr.io";
     $username = "u368907112_admin";
     $password = "Victor270377@";
     $dbname = "u368907112_smurfarena";
@@ -26,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $containte = $_POST["containte"];
 
     // Insere os dados no banco de dados
-    $sql = "INSERT INTO tabela_contatos (nome, email, telefone, idade, endereco, cidade, idlol, containte) VALUES ('$nome', '$email', '$telefone', '$idade', '$endereco', '$cidade', '$idlol', '$containte')";
+    $sql = "INSERT INTO formulario (nome, email, telefone, idade, endereco, cidade, idlol, containte) VALUES ('$nome', '$email', '$telefone', '$idade', '$endereco', '$cidade', '$idlol', '$containte')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Dados inseridos com sucesso!";

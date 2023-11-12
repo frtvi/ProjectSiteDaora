@@ -3,10 +3,10 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Conecta ao banco de dados
-    $servername = "https://154.49.246.96:8090";
-    $username = "admin";
+    $servername = "127.0.0.1:3306";
+    $username = "u368907112_admin";
     $password = "Victor270377@";
-    $dbname = "smurfarena";
+    $dbname = "u368907112_smurfarena";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 

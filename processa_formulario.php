@@ -1,8 +1,21 @@
 <?php
-// Arquivo processa_formulario.php
-
+// Verifica se o formulário foi submetido
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recupere os dados do formulário
+
+    // Conecta ao banco de dados
+    $servername = "https://154.49.246.96:8090";
+    $username = "admin";
+    $password = "Victor270377@";
+    $dbname = "smurfarena";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Verifica a conexão
+    if ($conn->connect_error) {
+        die("Conexão falhou: " . $conn->connect_error);
+    }
+
+    // Coleta os dados do formulário
     $nome = $_POST["nome"];
     $email = $_POST["email"];
     $telefone = $_POST["telefone"];
@@ -12,20 +25,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $idlol = $_POST["idlol"];
     $containte = $_POST["containte"];
 
-    // Conecte-se ao banco de dados Azure
-    try {
-        $conn = new PDO("sqlsrv:server = tcp:smurfarena22.database.windows.net,1433; Database = smurfarena", "viktro", "{victor270377@}");
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    // Insere os dados no banco de dados
+    $sql = "INSERT INTO tabela_contatos (nome, email, telefone, idade, endereco, cidade, idlol, containte) VALUES ('$nome', '$email', '$telefone', '$idade', '$endereco', '$cidade', '$idlol', '$containte')";
 
-        // Insira os dados no banco de dados
-        $stmt = $conn->prepare("INSERT INTO tabela (nome, email, telefone, idade, endereco, cidade, idlol, containte) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-        $stmt->execute([$nome, $email, $telefone, $idade, $endereco, $cidade, $idlol, $containte]);
-
+    if ($conn->query($sql) === TRUE) {
         echo "Dados inseridos com sucesso!";
-    } catch (PDOException $e) {
-        echo "Erro ao conectar ao SQL Server: " . $e->getMessage();
+    } else {
+        echo "Erro ao inserir dados: " . $conn->error;
     }
-} else {
-    echo "Método de requisição inválido.";
+
+    // Fecha a conexão com o banco de dados
+    $conn->close();
 }
 ?>

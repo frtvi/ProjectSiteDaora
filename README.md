@@ -27,6 +27,22 @@ Lucas Camargo Vicentini,
 3. Receba os detalhes da conta em sua caixa de entrada e comece sua aventura!
 
 # Junte-se à SmurfArena hoje mesmo e descubra um novo nível de diversão e desafio no League of Legends.
+<p>Cada página possui sua finalidade especifica assim como:</p>
+<p><strong>Página Inicial:</strong> Página principal do site que explica de maneira resumida a empresa e sua atividade principal.</p>
+<img src="LINK DA IMAGEM"/>
+
+<p><strong>Sobre:</strong> Fala um pouco sobre os criadores e o motivo de termos criado a SmurfArena</p>
+<img src="LINK DA IMAGEM"/>
+
+<p><strong>Reviews:</strong> Mostra alguns reviews de nossos clientes</p>
+<img src="LINK DA IMAGEM"/>
+
+<p><strong>Contato:</strong> Esta página tem como finalidade promover o primeiro contato entre o cliente e a equipe da SmurfArena</p>
+<img src="LINK DA IMAGEM"/>
+
+<p><strong>Nicknames:</strong> Nesta página são mostrados os nicknames das contas disponíveis para venda. Utilizando um crud para adicionar ou excluir os nicks.</p>
+<img src="LINK DA IMAGEM"/>
+
 ## Autores
 ### Nome da equipe: Froggers
 

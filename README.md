@@ -1,22 +1,28 @@
 # SmurfArena
 
-Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!
-https://frtvi.github.io/ProjectSmurfArena/<br>https://smurfarena.shop/
+Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!<br>
+https://smurfarena.shop/
 
-Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e o formspree para recebimento de formulários no e-mail
+Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e php juntamente com um banco de dados mySQL remoto para recebimento de formulários.
 
 ## Sobre Nós
 
-Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidade de explorar o League of Legends de maneira única. Oferecemos uma ampla variedade de contas smurf que permitem aos jogadores experientes mergulharem em novos desafios ou jogar com amigos iniciantes, mantendo uma experiência de jogo equilibrada para todos.
+Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidade de explorar o League of Legends de maneira única. Oferecemos uma ampla variedade de contas smurf que permitem aos jogadores experientes mergulharem em novos desafios ou jogar com amigos iniciantes, mantendo uma experiência de jogo equilibrada para todos.<br>
+<p><strong>Integrantes do grupo:</strong>
+<br/>
+Victor Augusto Lima Barbosa,
+<br/>
+Gabriel Saldanha de Alencar,
+<br/>
+André Ribeiro Xavier,
+<br/>
+Lucas Camargo Vicentini,
+<br/>
 
-## Por que Escolher a SmurfArena?
-
-- Contas Smurf Verificadas: Todas as contas smurf em nosso catálogo passam por verificações rigorosas para garantir que você receba contas autênticas e seguras.
-- Suporte ao Cliente: Nossa equipe de suporte está pronta para ajudar com quaisquer perguntas ou problemas que você possa ter.
 
 ## Como Funciona
 
-1. Navegue pelo nosso catálogo e escolha a conta smurf que deseja.
+1. Navegue pelo nosso site e entre em contato contando sobre sua conta de interesse.
 2. Faça a compra de forma segura e conveniente.
 3. Receba os detalhes da conta em sua caixa de entrada e comece sua aventura!
 

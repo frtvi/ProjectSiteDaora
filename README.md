@@ -3,7 +3,7 @@
 Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!<br>
 https://smurfarena.shop/
 
-Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css, javascript e php juntamente com um banco de dados mySQL remoto para recebimento de formulários.
+Feito com poderosas técnicas e ferramentas, fizemos nosso site usando html5, css (SASS), javascript e php juntamente com um banco de dados mySQL remoto para recebimento de formulários.
 
 ## Sobre Nós
 

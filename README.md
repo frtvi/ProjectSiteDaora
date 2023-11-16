@@ -54,4 +54,4 @@ Lucas Camargo Vicentini,
 # Nota Legal
 Este site foi criado por fãs para um trabalho da faculdade e não está afiliado, endossado, patrocinado ou aprovado de forma alguma pela Riot Games, desenvolvedora do League of Legends, ou por qualquer outra entidade relacionada.
 
-https://frtvi.github.io/ProjectSmurfArena/
+https://smurfarena.shop/

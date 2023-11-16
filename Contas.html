@@ -1,0 +1,86 @@
+<?php include 'functions.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smurf Arena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/plugins.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="Contas.html">Nicknames</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Gerenciar <strong>Nicknames</strong></h1>
+        <p>Adicione ou exclua nicknames de League of Legends</p>
+    </header>
+
+    <main>
+        <section class="contato">
+            <div class="container">
+                <!-- Formulário para adicionar e excluir nicknames -->
+                <form id="nickname-form" method="post" action="processa_nicknames.php">
+                    <div class="cols">
+                        <div class="col">
+                            <div class="form-group">
+                                <input name="add_nickname" type="text" placeholder="Adicionar Nickname">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <button class="botao medio" name="add_button"><i class="fa fa-plus"></i> Adicionar</button>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <input name="delete_nickname" type="text" placeholder="Excluir Nickname">
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-group">
+                                <button class="botao medio" name="delete_button"><i class="fa fa-trash"></i> Excluir</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                        <iframe src="mostrar_txt.php" width="600" height="400"></iframe>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo-rodape">
+            <a href="index.html">
+                <img src="images/sa.png" alt="Logo TAG Rodapé">
+            </a>
+            <p>Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("nickname-form").addEventListener("submit", function (e) {
+                // Nenhuma modificação necessária aqui, pois o formulário agora enviará dados para o arquivo PHP.
+            });
+        });
+    </script>
+</body>
+
+</html>

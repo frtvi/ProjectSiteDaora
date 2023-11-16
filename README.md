@@ -1,7 +1,7 @@
 # SmurfArena
 
 Bem-vindo à SmurfArena, sua fonte confiável para contas smurf no mundo do League of Legends!<br>
-https://smurfarena.shop/<br>https://github.com/frtvi/SA_backend (Repositório do código backend)<br>
+https://smurfarena.shop/<br>https://github.com/frtvi/SA_backend (Repositório do código Back-end)<br>
 
 Feito com poderosas técnicas e ferramentas, fizemos nosso site responsivo mobile usando html5, css (SASS), javascript, backend em php integrado juntamente com um banco de dados mySQL remoto para recebimento de formulários.
 

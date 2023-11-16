@@ -8,16 +8,11 @@ Feito com poderosas técnicas e ferramentas, fizemos nosso site responsivo mobil
 ## Sobre Nós
 
 Na SmurfArena, estamos comprometidos em proporcionar aos jogadores a oportunidade de explorar o League of Legends de maneira única. Oferecemos uma ampla variedade de contas smurf que permitem aos jogadores experientes mergulharem em novos desafios ou jogar com amigos iniciantes, mantendo uma experiência de jogo equilibrada para todos.<br>
-<p><strong>Integrantes do grupo:</strong>
-<br/>
-Victor Augusto Lima Barbosa,
-<br/>
-Gabriel Saldanha de Alencar,
-<br/>
-André Ribeiro Xavier,
-<br/>
-Lucas Camargo Vicentini,
-<br/>
+<p><strong>Integrantes do grupo:</strong><br>
+- Victor Augusto Lima Barbosa (202202209236) - [@frtvi](https://www.github.com/frtvi)<br>
+- Lucas Camargo Vicentini (202302380433) - [@LuccaooX](https://www.github.com/LuccaooX)<br>
+- Gabriel Saldanha de Alencar (202202423131) - [@dluMenSE](https://github.com/dluMenSE)<br>
+- André Ribeiro Xavier (202303822103) - [@d0kyo](https://github.com/d0kyo)<br>
 
 
 ## Como Funciona
